@@ -53,9 +53,9 @@ while True:
         if result[1] < 50:
             cv2.putText(frame,'{}'.format(imagePaths[result[0]]),(x,y-25),2,1.1,(0,255,0),1,cv2.LINE_AA)
             cv2.rectangle(frame, (x,y),(x+w,y+h),(0,255,0),2)
-            pygame.mixer.music.play()
+            """ pygame.mixer.music.play()
             pygame.time.delay(3000)
-            pygame.mixer.music.stop()
+            pygame.mixer.music.stop() """
 
         else:
             cv2.putText(frame,'Desconocido',(x,y-20),2,0.8,(0,0,255),1,cv2.LINE_AA)

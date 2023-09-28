@@ -2,7 +2,7 @@ import cv2
 import os
 import imutils
 
-personName = 'Prueba2'
+personName = 'LuisG'
 dataPath = 'C:/Users/VICTUS/Desktop/UPDS/INTELIGENCIA ARTIFICIAL - ING. ZAMBRANA/ReconocimientoFacial/Data' #Cambia a la ruta donde hayas almacenado Data
 personPath = dataPath + '/' + personName
 
